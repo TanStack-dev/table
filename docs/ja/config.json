@@ -1,0 +1,790 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "74SF5EKVW9",
+    "apiKey": "9fc015a3310be6669ed66c6c459f319f",
+    "indexName": "tanstack-table"
+  },
+  "sections": [
+    {
+      "label": "はじめに",
+      "children": [
+        {
+          "label": "イントロダクション",
+          "to": "introduction"
+        },
+        {
+          "label": "概要",
+          "to": "overview"
+        },
+        {
+          "label": "インストール",
+          "to": "installation"
+        },
+        {
+          "label": "V8への移行",
+          "to": "guide/migrating"
+        },
+        {
+          "label": "FAQ",
+          "to": "faq"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Angularテーブルアダプター",
+              "to": "framework/angular/angular-table"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "Litテーブルアダプター",
+              "to": "framework/lit/lit-table"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "Qwikテーブルアダプター",
+              "to": "framework/qwik/qwik-table"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Reactテーブルアダプター",
+              "to": "framework/react/react-table"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Solidテーブルアダプター",
+              "to": "framework/solid/solid-table"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Svelteテーブルアダプター",
+              "to": "framework/svelte/svelte-table"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Vueテーブルアダプター",
+              "to": "framework/vue/vue-table"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "Vanilla JS (フレームワークなし)",
+              "to": "vanilla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "コアガイド",
+      "children": [
+        {
+          "label": "データ",
+          "to": "guide/data"
+        },
+        {
+          "label": "カラム定義",
+          "to": "guide/column-defs"
+        },
+        {
+          "label": "テーブルインスタンス",
+          "to": "guide/tables"
+        },
+        {
+          "label": "行モデル",
+          "to": "guide/row-models"
+        },
+        {
+          "label": "行",
+          "to": "guide/rows"
+        },
+        {
+          "label": "セル",
+          "to": "guide/cells"
+        },
+        {
+          "label": "ヘッダーグループ",
+          "to": "guide/header-groups"
+        },
+        {
+          "label": "ヘッダー",
+          "to": "guide/headers"
+        },
+        {
+          "label": "カラム",
+          "to": "guide/columns"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/angular/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/lit/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/qwik/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/react/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/solid/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/svelte/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/vue/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "テーブル状態",
+              "to": "framework/vanilla/guide/table-state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "機能ガイド",
+      "children": [
+        {
+          "label": "カラム順序",
+          "to": "guide/column-ordering"
+        },
+        {
+          "label": "カラム固定",
+          "to": "guide/column-pinning"
+        },
+        {
+          "label": "カラムサイズ調整",
+          "to": "guide/column-sizing"
+        },
+        {
+          "label": "カラム表示/非表示",
+          "to": "guide/column-visibility"
+        },
+        {
+          "label": "カラムフィルタリング",
+          "to": "guide/column-filtering"
+        },
+        {
+          "label": "グローバルフィルタリング",
+          "to": "guide/global-filtering"
+        },
+        {
+          "label": "ファジーフィルタリング",
+          "to": "guide/fuzzy-filtering"
+        },
+        {
+          "label": "カラムファセット",
+          "to": "guide/column-faceting"
+        },
+        {
+          "label": "グローバルファセット",
+          "to": "guide/global-faceting"
+        },
+        {
+          "label": "グループ化",
+          "to": "guide/grouping"
+        },
+        {
+          "label": "展開",
+          "to": "guide/expanding"
+        },
+        {
+          "label": "ページネーション",
+          "to": "guide/pagination"
+        },
+        {
+          "label": "行固定",
+          "to": "guide/row-pinning"
+        },
+        {
+          "label": "行選択",
+          "to": "guide/row-selection"
+        },
+        {
+          "label": "ソート",
+          "to": "guide/sorting"
+        },
+        {
+          "label": "仮想化",
+          "to": "guide/virtualization"
+        },
+        {
+          "label": "カスタム機能",
+          "to": "guide/custom-features"
+        }
+      ]
+    },
+    {
+      "label": "コアAPI",
+      "children": [
+        {
+          "label": "カラム定義",
+          "to": "api/core/column-def"
+        },
+        {
+          "label": "テーブル",
+          "to": "api/core/table"
+        },
+        {
+          "label": "カラム",
+          "to": "api/core/column"
+        },
+        {
+          "label": "ヘッダーグループ",
+          "to": "api/core/header-group"
+        },
+        {
+          "label": "ヘッダー",
+          "to": "api/core/header"
+        },
+        {
+          "label": "行",
+          "to": "api/core/row"
+        },
+        {
+          "label": "セル",
+          "to": "api/core/cell"
+        }
+      ]
+    },
+    {
+      "label": "機能API",
+      "children": [
+        {
+          "label": "カラムフィルタリング",
+          "to": "api/features/column-filtering"
+        },
+        {
+          "label": "カラムファセット",
+          "to": "api/features/column-faceting"
+        },
+        {
+          "label": "カラム順序",
+          "to": "api/features/column-ordering"
+        },
+        {
+          "label": "カラム固定",
+          "to": "api/features/column-pinning"
+        },
+        {
+          "label": "カラムサイズ調整",
+          "to": "api/features/column-sizing"
+        },
+        {
+          "label": "カラム表示/非表示",
+          "to": "api/features/column-visibility"
+        },
+        {
+          "label": "グローバルファセット",
+          "to": "api/features/global-faceting"
+        },
+        {
+          "label": "グローバルフィルタリング",
+          "to": "api/features/global-filtering"
+        },
+        {
+          "label": "ソート",
+          "to": "api/features/sorting"
+        },
+        {
+          "label": "グループ化",
+          "to": "api/features/grouping"
+        },
+        {
+          "label": "展開",
+          "to": "api/features/expanding"
+        },
+        {
+          "label": "ページネーション",
+          "to": "api/features/pagination"
+        },
+        {
+          "label": "行固定",
+          "to": "api/features/row-pinning"
+        },
+        {
+          "label": "行選択",
+          "to": "api/features/row-selection"
+        }
+      ]
+    },
+    {
+      "label": "エンタープライズ",
+      "children": [
+        {
+          "label": "AG Grid",
+          "to": "enterprise/ag-grid"
+        }
+      ]
+    },
+    {
+      "label": "例",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "to": "framework/angular/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/angular/examples/grouping",
+              "label": "カラムグループ化"
+            },
+            {
+              "to": "framework/angular/examples/column-ordering",
+              "label": "カラム順序"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning",
+              "label": "カラム固定"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning-sticky",
+              "label": "固定カラム"
+            },
+            {
+              "to": "framework/angular/examples/column-visibility",
+              "label": "カラム表示/非表示"
+            },
+            {
+              "to": "framework/angular/examples/filters",
+              "label": "カラムフィルター"
+            },
+            {
+              "to": "framework/angular/examples/row-selection",
+              "label": "行選択"
+            },
+            {
+              "to": "framework/angular/examples/expanding",
+              "label": "展開"
+            },
+            {
+              "to": "framework/angular/examples/sub-components",
+              "label": "サブコンポーネント"
+            },
+            {
+              "to": "framework/angular/examples/signal-input",
+              "label": "シグナル入力"
+            },
+            {
+              "to": "framework/angular/examples/editable",
+              "label": "編集可能データ"
+            },
+            {
+              "to": "framework/angular/examples/row-dnd",
+              "label": "行DnD"
+            },
+            {
+              "to": "framework/angular/examples/column-resizing-performant",
+              "label": "パフォーマンス重視のカラムサイズ変更"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "to": "framework/lit/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/lit/examples/column-sizing",
+              "label": "カラムサイズ調整"
+            },
+            {
+              "to": "framework/lit/examples/filters",
+              "label": "フィルター"
+            },
+            {
+              "to": "framework/lit/examples/row-selection",
+              "label": "行選択"
+            },
+            {
+              "to": "framework/lit/examples/sorting",
+              "label": "ソート"
+            },
+            {
+              "to": "framework/lit/examples/virtualized-rows",
+              "label": "仮想化行"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "to": "framework/qwik/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/qwik/examples/filters",
+              "label": "フィルター"
+            },
+            {
+              "to": "framework/qwik/examples/row-selection",
+              "label": "行選択"
+            },
+            {
+              "to": "framework/qwik/examples/sorting",
+              "label": "ソート"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "to": "framework/react/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/react/examples/column-groups",
+              "label": "ヘッダーグループ"
+            },
+            {
+              "to": "framework/react/examples/filters",
+              "label": "カラムフィルター"
+            },
+            {
+              "to": "framework/react/examples/filters-faceted",
+              "label": "カラムフィルター (ファセット)"
+            },
+            {
+              "to": "framework/react/examples/filters-fuzzy",
+              "label": "ファジー検索フィルター"
+            },
+            {
+              "to": "framework/react/examples/column-ordering",
+              "label": "カラム順序"
+            },
+            {
+              "to": "framework/react/examples/column-dnd",
+              "label": "カラム順序 (DnD)"
+            },
+            {
+              "to": "framework/react/examples/column-pinning",
+              "label": "カラム固定"
+            },
+            {
+              "to": "framework/react/examples/column-pinning-sticky",
+              "label": "固定カラム"
+            },
+            {
+              "to": "framework/react/examples/column-sizing",
+              "label": "カラムサイズ調整"
+            },
+            {
+              "to": "framework/react/examples/column-resizing-performant",
+              "label": "パフォーマンス重視のカラムサイズ変更"
+            },
+            {
+              "to": "framework/react/examples/column-visibility",
+              "label": "カラム表示/非表示"
+            },
+            {
+              "to": "framework/react/examples/editable-data",
+              "label": "編集可能データ"
+            },
+            {
+              "to": "framework/react/examples/expanding",
+              "label": "展開"
+            },
+            {
+              "to": "framework/react/examples/sub-components",
+              "label": "サブコンポーネント"
+            },
+            {
+              "to": "framework/react/examples/fully-controlled",
+              "label": "完全制御"
+            },
+            {
+              "to": "framework/react/examples/grouping",
+              "label": "グループ化"
+            },
+            {
+              "to": "framework/react/examples/pagination",
+              "label": "ページネーション"
+            },
+            {
+              "to": "framework/react/examples/pagination-controlled",
+              "label": "ページネーション制御"
+            },
+            {
+              "to": "framework/react/examples/row-dnd",
+              "label": "行DnD"
+            },
+            {
+              "to": "framework/react/examples/row-pinning",
+              "label": "行固定"
+            },
+            {
+              "to": "framework/react/examples/row-selection",
+              "label": "行選択"
+            },
+            {
+              "to": "framework/react/examples/sorting",
+              "label": "ソート"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns",
+              "label": "仮想化カラム"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns-experimental",
+              "label": "仮想化カラム (実験的)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows",
+              "label": "仮想化行"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows-experimental",
+              "label": "仮想化行 (実験的)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-infinite-scrolling",
+              "label": "仮想化無限スクロール"
+            },
+            {
+              "to": "framework/react/examples/kitchen-sink",
+              "label": "キッチンシンク"
+            },
+            {
+              "to": "framework/react/examples/bootstrap",
+              "label": "React Bootstrap"
+            },
+            {
+              "to": "framework/react/examples/material-ui-pagination",
+              "label": "Material UIページネーション"
+            },
+            {
+              "to": "framework/react/examples/full-width-table",
+              "label": "React全幅テーブル"
+            },
+            {
+              "to": "framework/react/examples/full-width-resizable-table",
+              "label": "React全幅リサイズ可能テーブル"
+            },
+            {
+              "to": "framework/react/examples/custom-features",
+              "label": "カスタム機能"
+            },
+            {
+              "to": "framework/react/examples/query-router-search-params",
+              "label": "クエリルーター検索パラメータ"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "to": "framework/solid/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/solid/examples/column-groups",
+              "label": "カラムグループ"
+            },
+            {
+              "to": "framework/solid/examples/column-ordering",
+              "label": "カラム順序"
+            },
+            {
+              "to": "framework/solid/examples/column-visibility",
+              "label": "カラム表示/非表示"
+            },
+            {
+              "to": "framework/solid/examples/filters",
+              "label": "フィルター"
+            },
+            {
+              "to": "framework/solid/examples/sorting",
+              "label": "ソート"
+            },
+            {
+              "to": "framework/solid/examples/bootstrap",
+              "label": "Solid Bootstrap"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "to": "framework/svelte/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/svelte/examples/column-groups",
+              "label": "カラムグループ"
+            },
+            {
+              "to": "framework/svelte/examples/column-ordering",
+              "label": "カラム順序"
+            },
+            {
+              "to": "framework/svelte/examples/column-pinning",
+              "label": "カラム固定"
+            },
+            {
+              "to": "framework/svelte/examples/column-visibility",
+              "label": "カラム表示/非表示"
+            },
+            {
+              "to": "framework/svelte/examples/filtering",
+              "label": "フィルタリング"
+            },
+            {
+              "to": "framework/svelte/examples/sorting",
+              "label": "ソート"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "to": "framework/vue/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/vue/examples/column-ordering",
+              "label": "カラム順序"
+            },
+            {
+              "to": "framework/vue/examples/column-pinning",
+              "label": "カラム固定"
+            },
+            {
+              "to": "framework/vue/examples/pagination",
+              "label": "ページネーション"
+            },
+            {
+              "to": "framework/vue/examples/row-selection",
+              "label": "行選択"
+            },
+            {
+              "to": "framework/vue/examples/sorting",
+              "label": "ソート"
+            },
+            {
+              "to": "framework/vue/examples/sub-components",
+              "label": "サブコンポーネント"
+            },
+            {
+              "to": "framework/vue/examples/filters",
+              "label": "カラムフィルター"
+            },
+            {
+              "to": "framework/vue/examples/virtualized-rows",
+              "label": "仮想化行"
+            },
+            {
+              "to": "framework/vue/examples/grouping",
+              "label": "グループ化"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "to": "framework/vanilla/examples/basic",
+              "label": "基本"
+            },
+            {
+              "to": "framework/vanilla/examples/pagination",
+              "label": "ページネーション"
+            },
+            {
+              "to": "framework/vanilla/examples/sorting",
+              "label": "ソート"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
