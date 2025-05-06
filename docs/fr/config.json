@@ -1,0 +1,790 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "74SF5EKVW9",
+    "apiKey": "9fc015a3310be6669ed66c6c459f319f",
+    "indexName": "tanstack-table"
+  },
+  "sections": [
+    {
+      "label": "Premiers pas",
+      "children": [
+        {
+          "label": "Introduction",
+          "to": "introduction"
+        },
+        {
+          "label": "Vue d'ensemble",
+          "to": "overview"
+        },
+        {
+          "label": "Installation",
+          "to": "installation"
+        },
+        {
+          "label": "Migration vers V8",
+          "to": "guide/migrating"
+        },
+        {
+          "label": "FAQ",
+          "to": "faq"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Adaptateur de table Angular",
+              "to": "framework/angular/angular-table"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "Adaptateur de table Lit",
+              "to": "framework/lit/lit-table"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "Adaptateur de table Qwik",
+              "to": "framework/qwik/qwik-table"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Adaptateur de table React",
+              "to": "framework/react/react-table"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Adaptateur de table Solid",
+              "to": "framework/solid/solid-table"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Adaptateur de table Svelte",
+              "to": "framework/svelte/svelte-table"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Adaptateur de table Vue",
+              "to": "framework/vue/vue-table"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "Vanilla JS (sans framework)",
+              "to": "vanilla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Guides principaux",
+      "children": [
+        {
+          "label": "Données",
+          "to": "guide/data"
+        },
+        {
+          "label": "Définitions de colonnes",
+          "to": "guide/column-defs"
+        },
+        {
+          "label": "Instance de table",
+          "to": "guide/tables"
+        },
+        {
+          "label": "Modèles de lignes",
+          "to": "guide/row-models"
+        },
+        {
+          "label": "Lignes",
+          "to": "guide/rows"
+        },
+        {
+          "label": "Cellules",
+          "to": "guide/cells"
+        },
+        {
+          "label": "Groupes d'en-têtes",
+          "to": "guide/header-groups"
+        },
+        {
+          "label": "En-têtes",
+          "to": "guide/headers"
+        },
+        {
+          "label": "Colonnes",
+          "to": "guide/columns"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/angular/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/lit/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/qwik/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/react/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/solid/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/svelte/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/vue/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "État de la table",
+              "to": "framework/vanilla/guide/table-state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Guides des fonctionnalités",
+      "children": [
+        {
+          "label": "Ordonnancement des colonnes",
+          "to": "guide/column-ordering"
+        },
+        {
+          "label": "Épinglage des colonnes",
+          "to": "guide/column-pinning"
+        },
+        {
+          "label": "Dimensionnement des colonnes",
+          "to": "guide/column-sizing"
+        },
+        {
+          "label": "Visibilité des colonnes",
+          "to": "guide/column-visibility"
+        },
+        {
+          "label": "Filtrage des colonnes",
+          "to": "guide/column-filtering"
+        },
+        {
+          "label": "Filtrage global",
+          "to": "guide/global-filtering"
+        },
+        {
+          "label": "Filtrage flou",
+          "to": "guide/fuzzy-filtering"
+        },
+        {
+          "label": "Facettage des colonnes",
+          "to": "guide/column-faceting"
+        },
+        {
+          "label": "Facettage global",
+          "to": "guide/global-faceting"
+        },
+        {
+          "label": "Regroupement",
+          "to": "guide/grouping"
+        },
+        {
+          "label": "Expansion",
+          "to": "guide/expanding"
+        },
+        {
+          "label": "Pagination",
+          "to": "guide/pagination"
+        },
+        {
+          "label": "Épinglage des lignes",
+          "to": "guide/row-pinning"
+        },
+        {
+          "label": "Sélection des lignes",
+          "to": "guide/row-selection"
+        },
+        {
+          "label": "Tri",
+          "to": "guide/sorting"
+        },
+        {
+          "label": "Virtualisation",
+          "to": "guide/virtualization"
+        },
+        {
+          "label": "Fonctionnalités personnalisées",
+          "to": "guide/custom-features"
+        }
+      ]
+    },
+    {
+      "label": "API principales",
+      "children": [
+        {
+          "label": "Définition de colonne",
+          "to": "api/core/column-def"
+        },
+        {
+          "label": "Table",
+          "to": "api/core/table"
+        },
+        {
+          "label": "Colonne",
+          "to": "api/core/column"
+        },
+        {
+          "label": "Groupe d'en-têtes",
+          "to": "api/core/header-group"
+        },
+        {
+          "label": "En-tête",
+          "to": "api/core/header"
+        },
+        {
+          "label": "Ligne",
+          "to": "api/core/row"
+        },
+        {
+          "label": "Cellule",
+          "to": "api/core/cell"
+        }
+      ]
+    },
+    {
+      "label": "API des fonctionnalités",
+      "children": [
+        {
+          "label": "Filtrage des colonnes",
+          "to": "api/features/column-filtering"
+        },
+        {
+          "label": "Facettage des colonnes",
+          "to": "api/features/column-faceting"
+        },
+        {
+          "label": "Ordonnancement des colonnes",
+          "to": "api/features/column-ordering"
+        },
+        {
+          "label": "Épinglage des colonnes",
+          "to": "api/features/column-pinning"
+        },
+        {
+          "label": "Dimensionnement des colonnes",
+          "to": "api/features/column-sizing"
+        },
+        {
+          "label": "Visibilité des colonnes",
+          "to": "api/features/column-visibility"
+        },
+        {
+          "label": "Facettage global",
+          "to": "api/features/global-faceting"
+        },
+        {
+          "label": "Filtrage global",
+          "to": "api/features/global-filtering"
+        },
+        {
+          "label": "Tri",
+          "to": "api/features/sorting"
+        },
+        {
+          "label": "Regroupement",
+          "to": "api/features/grouping"
+        },
+        {
+          "label": "Expansion",
+          "to": "api/features/expanding"
+        },
+        {
+          "label": "Pagination",
+          "to": "api/features/pagination"
+        },
+        {
+          "label": "Épinglage des lignes",
+          "to": "api/features/row-pinning"
+        },
+        {
+          "label": "Sélection des lignes",
+          "to": "api/features/row-selection"
+        }
+      ]
+    },
+    {
+      "label": "Entreprise",
+      "children": [
+        {
+          "label": "AG Grid",
+          "to": "enterprise/ag-grid"
+        }
+      ]
+    },
+    {
+      "label": "Exemples",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "to": "framework/angular/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/angular/examples/grouping",
+              "label": "Regroupement de colonnes"
+            },
+            {
+              "to": "framework/angular/examples/column-ordering",
+              "label": "Ordonnancement des colonnes"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning",
+              "label": "Épinglage des colonnes"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning-sticky",
+              "label": "Épinglage des colonnes collant"
+            },
+            {
+              "to": "framework/angular/examples/column-visibility",
+              "label": "Visibilité des colonnes"
+            },
+            {
+              "to": "framework/angular/examples/filters",
+              "label": "Filtres de colonnes"
+            },
+            {
+              "to": "framework/angular/examples/row-selection",
+              "label": "Sélection des lignes"
+            },
+            {
+              "to": "framework/angular/examples/expanding",
+              "label": "Expansion"
+            },
+            {
+              "to": "framework/angular/examples/sub-components",
+              "label": "Sous-composants"
+            },
+            {
+              "to": "framework/angular/examples/signal-input",
+              "label": "Entrée Signal"
+            },
+            {
+              "to": "framework/angular/examples/editable",
+              "label": "Données modifiables"
+            },
+            {
+              "to": "framework/angular/examples/row-dnd",
+              "label": "Glisser-déposer des lignes"
+            },
+            {
+              "to": "framework/angular/examples/column-resizing-performant",
+              "label": "Redimensionnement performant des colonnes"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "to": "framework/lit/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/lit/examples/column-sizing",
+              "label": "Dimensionnement des colonnes"
+            },
+            {
+              "to": "framework/lit/examples/filters",
+              "label": "Filtres"
+            },
+            {
+              "to": "framework/lit/examples/row-selection",
+              "label": "Sélection des lignes"
+            },
+            {
+              "to": "framework/lit/examples/sorting",
+              "label": "Tri"
+            },
+            {
+              "to": "framework/lit/examples/virtualized-rows",
+              "label": "Lignes virtualisées"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "to": "framework/qwik/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/qwik/examples/filters",
+              "label": "Filtres"
+            },
+            {
+              "to": "framework/qwik/examples/row-selection",
+              "label": "Sélection des lignes"
+            },
+            {
+              "to": "framework/qwik/examples/sorting",
+              "label": "Tri"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "to": "framework/react/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/react/examples/column-groups",
+              "label": "Groupes d'en-têtes"
+            },
+            {
+              "to": "framework/react/examples/filters",
+              "label": "Filtres de colonnes"
+            },
+            {
+              "to": "framework/react/examples/filters-faceted",
+              "label": "Filtres de colonnes (à facettes)"
+            },
+            {
+              "to": "framework/react/examples/filters-fuzzy",
+              "label": "Filtres de recherche floue"
+            },
+            {
+              "to": "framework/react/examples/column-ordering",
+              "label": "Ordonnancement des colonnes"
+            },
+            {
+              "to": "framework/react/examples/column-dnd",
+              "label": "Ordonnancement des colonnes (Glisser-déposer)"
+            },
+            {
+              "to": "framework/react/examples/column-pinning",
+              "label": "Épinglage des colonnes"
+            },
+            {
+              "to": "framework/react/examples/column-pinning-sticky",
+              "label": "Épinglage des colonnes collant"
+            },
+            {
+              "to": "framework/react/examples/column-sizing",
+              "label": "Dimensionnement des colonnes"
+            },
+            {
+              "to": "framework/react/examples/column-resizing-performant",
+              "label": "Redimensionnement performant des colonnes"
+            },
+            {
+              "to": "framework/react/examples/column-visibility",
+              "label": "Visibilité des colonnes"
+            },
+            {
+              "to": "framework/react/examples/editable-data",
+              "label": "Données modifiables"
+            },
+            {
+              "to": "framework/react/examples/expanding",
+              "label": "Expansion"
+            },
+            {
+              "to": "framework/react/examples/sub-components",
+              "label": "Sous-composants"
+            },
+            {
+              "to": "framework/react/examples/fully-controlled",
+              "label": "Entièrement contrôlé"
+            },
+            {
+              "to": "framework/react/examples/grouping",
+              "label": "Regroupement"
+            },
+            {
+              "to": "framework/react/examples/pagination",
+              "label": "Pagination"
+            },
+            {
+              "to": "framework/react/examples/pagination-controlled",
+              "label": "Pagination contrôlée"
+            },
+            {
+              "to": "framework/react/examples/row-dnd",
+              "label": "Glisser-déposer des lignes"
+            },
+            {
+              "to": "framework/react/examples/row-pinning",
+              "label": "Épinglage des lignes"
+            },
+            {
+              "to": "framework/react/examples/row-selection",
+              "label": "Sélection des lignes"
+            },
+            {
+              "to": "framework/react/examples/sorting",
+              "label": "Tri"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns",
+              "label": "Colonnes virtualisées"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns-experimental",
+              "label": "Colonnes virtualisées (expérimental)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows",
+              "label": "Lignes virtualisées"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows-experimental",
+              "label": "Lignes virtualisées (expérimental)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-infinite-scrolling",
+              "label": "Défilement infini virtualisé"
+            },
+            {
+              "to": "framework/react/examples/kitchen-sink",
+              "label": "Tout-en-un"
+            },
+            {
+              "to": "framework/react/examples/bootstrap",
+              "label": "React Bootstrap"
+            },
+            {
+              "to": "framework/react/examples/material-ui-pagination",
+              "label": "Pagination Material UI"
+            },
+            {
+              "to": "framework/react/examples/full-width-table",
+              "label": "Table pleine largeur React"
+            },
+            {
+              "to": "framework/react/examples/full-width-resizable-table",
+              "label": "Table pleine largeur redimensionnable React"
+            },
+            {
+              "to": "framework/react/examples/custom-features",
+              "label": "Fonctionnalités personnalisées"
+            },
+            {
+              "to": "framework/react/examples/query-router-search-params",
+              "label": "Paramètres de recherche du routeur de requêtes"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "to": "framework/solid/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/solid/examples/column-groups",
+              "label": "Groupes de colonnes"
+            },
+            {
+              "to": "framework/solid/examples/column-ordering",
+              "label": "Ordonnancement des colonnes"
+            },
+            {
+              "to": "framework/solid/examples/column-visibility",
+              "label": "Visibilité des colonnes"
+            },
+            {
+              "to": "framework/solid/examples/filters",
+              "label": "Filtres"
+            },
+            {
+              "to": "framework/solid/examples/sorting",
+              "label": "Tri"
+            },
+            {
+              "to": "framework/solid/examples/bootstrap",
+              "label": "Solid Bootstrap"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "to": "framework/svelte/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/svelte/examples/column-groups",
+              "label": "Groupes de colonnes"
+            },
+            {
+              "to": "framework/svelte/examples/column-ordering",
+              "label": "Ordonnancement des colonnes"
+            },
+            {
+              "to": "framework/svelte/examples/column-pinning",
+              "label": "Épinglage des colonnes"
+            },
+            {
+              "to": "framework/svelte/examples/column-visibility",
+              "label": "Visibilité des colonnes"
+            },
+            {
+              "to": "framework/svelte/examples/filtering",
+              "label": "Filtrage"
+            },
+            {
+              "to": "framework/svelte/examples/sorting",
+              "label": "Tri"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "to": "framework/vue/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/vue/examples/column-ordering",
+              "label": "Ordonnancement des colonnes"
+            },
+            {
+              "to": "framework/vue/examples/column-pinning",
+              "label": "Épinglage des colonnes"
+            },
+            {
+              "to": "framework/vue/examples/pagination",
+              "label": "Pagination"
+            },
+            {
+              "to": "framework/vue/examples/row-selection",
+              "label": "Sélection des lignes"
+            },
+            {
+              "to": "framework/vue/examples/sorting",
+              "label": "Tri"
+            },
+            {
+              "to": "framework/vue/examples/sub-components",
+              "label": "Sous-composants"
+            },
+            {
+              "to": "framework/vue/examples/filters",
+              "label": "Filtres de colonnes"
+            },
+            {
+              "to": "framework/vue/examples/virtualized-rows",
+              "label": "Lignes virtualisées"
+            },
+            {
+              "to": "framework/vue/examples/grouping",
+              "label": "Regroupement"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "to": "framework/vanilla/examples/basic",
+              "label": "Basique"
+            },
+            {
+              "to": "framework/vanilla/examples/pagination",
+              "label": "Pagination"
+            },
+            {
+              "to": "framework/vanilla/examples/sorting",
+              "label": "Tri"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

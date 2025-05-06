@@ -1,0 +1,790 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "74SF5EKVW9",
+    "apiKey": "9fc015a3310be6669ed66c6c459f319f",
+    "indexName": "tanstack-table"
+  },
+  "sections": [
+    {
+      "label": "البداية",
+      "children": [
+        {
+          "label": "المقدمة",
+          "to": "introduction"
+        },
+        {
+          "label": "نظرة عامة",
+          "to": "overview"
+        },
+        {
+          "label": "التثبيت",
+          "to": "installation"
+        },
+        {
+          "label": "الترقية إلى الإصدار 8",
+          "to": "guide/migrating"
+        },
+        {
+          "label": "الأسئلة الشائعة",
+          "to": "faq"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "محول جدول Angular",
+              "to": "framework/angular/angular-table"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "محول جدول Lit",
+              "to": "framework/lit/lit-table"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "محول جدول Qwik",
+              "to": "framework/qwik/qwik-table"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "محول جدول React",
+              "to": "framework/react/react-table"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "محول جدول Solid",
+              "to": "framework/solid/solid-table"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "محول جدول Svelte",
+              "to": "framework/svelte/svelte-table"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "محول جدول Vue",
+              "to": "framework/vue/vue-table"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "جافاسكريبت عادي (بدون إطار عمل)",
+              "to": "vanilla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "الدليل الأساسي",
+      "children": [
+        {
+          "label": "البيانات",
+          "to": "guide/data"
+        },
+        {
+          "label": "تعريفات الأعمدة",
+          "to": "guide/column-defs"
+        },
+        {
+          "label": "نسخة الجدول",
+          "to": "guide/tables"
+        },
+        {
+          "label": "نماذج الصفوف",
+          "to": "guide/row-models"
+        },
+        {
+          "label": "الصفوف",
+          "to": "guide/rows"
+        },
+        {
+          "label": "الخلايا",
+          "to": "guide/cells"
+        },
+        {
+          "label": "مجموعات الرؤوس",
+          "to": "guide/header-groups"
+        },
+        {
+          "label": "الرؤوس",
+          "to": "guide/headers"
+        },
+        {
+          "label": "الأعمدة",
+          "to": "guide/columns"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/angular/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/lit/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/qwik/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/react/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/solid/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/svelte/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/vue/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "حالة الجدول",
+              "to": "framework/vanilla/guide/table-state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "دليل الميزات",
+      "children": [
+        {
+          "label": "ترتيب الأعمدة",
+          "to": "guide/column-ordering"
+        },
+        {
+          "label": "تثبيت الأعمدة",
+          "to": "guide/column-pinning"
+        },
+        {
+          "label": "تغيير حجم الأعمدة",
+          "to": "guide/column-sizing"
+        },
+        {
+          "label": "إظهار/إخفاء الأعمدة",
+          "to": "guide/column-visibility"
+        },
+        {
+          "label": "تصفية الأعمدة",
+          "to": "guide/column-filtering"
+        },
+        {
+          "label": "التصفية العامة",
+          "to": "guide/global-filtering"
+        },
+        {
+          "label": "التصفية الضبابية",
+          "to": "guide/fuzzy-filtering"
+        },
+        {
+          "label": "تقسيم الأعمدة",
+          "to": "guide/column-faceting"
+        },
+        {
+          "label": "التقسيم العام",
+          "to": "guide/global-faceting"
+        },
+        {
+          "label": "التجميع",
+          "to": "guide/grouping"
+        },
+        {
+          "label": "التوسيع",
+          "to": "guide/expanding"
+        },
+        {
+          "label": "ترقيم الصفحات",
+          "to": "guide/pagination"
+        },
+        {
+          "label": "تثبيت الصفوف",
+          "to": "guide/row-pinning"
+        },
+        {
+          "label": "اختيار الصفوف",
+          "to": "guide/row-selection"
+        },
+        {
+          "label": "الفرز",
+          "to": "guide/sorting"
+        },
+        {
+          "label": "التخيل",
+          "to": "guide/virtualization"
+        },
+        {
+          "label": "ميزات مخصصة",
+          "to": "guide/custom-features"
+        }
+      ]
+    },
+    {
+      "label": "واجهات برمجة التطبيقات الأساسية",
+      "children": [
+        {
+          "label": "تعريف العمود",
+          "to": "api/core/column-def"
+        },
+        {
+          "label": "الجدول",
+          "to": "api/core/table"
+        },
+        {
+          "label": "العمود",
+          "to": "api/core/column"
+        },
+        {
+          "label": "مجموعة الرؤوس",
+          "to": "api/core/header-group"
+        },
+        {
+          "label": "الرأس",
+          "to": "api/core/header"
+        },
+        {
+          "label": "الصف",
+          "to": "api/core/row"
+        },
+        {
+          "label": "الخلية",
+          "to": "api/core/cell"
+        }
+      ]
+    },
+    {
+      "label": "واجهات برمجة التطبيقات للميزات",
+      "children": [
+        {
+          "label": "تصفية الأعمدة",
+          "to": "api/features/column-filtering"
+        },
+        {
+          "label": "تقسيم الأعمدة",
+          "to": "api/features/column-faceting"
+        },
+        {
+          "label": "ترتيب الأعمدة",
+          "to": "api/features/column-ordering"
+        },
+        {
+          "label": "تثبيت الأعمدة",
+          "to": "api/features/column-pinning"
+        },
+        {
+          "label": "تغيير حجم الأعمدة",
+          "to": "api/features/column-sizing"
+        },
+        {
+          "label": "إظهار/إخفاء الأعمدة",
+          "to": "api/features/column-visibility"
+        },
+        {
+          "label": "التقسيم العام",
+          "to": "api/features/global-faceting"
+        },
+        {
+          "label": "التصفية العامة",
+          "to": "api/features/global-filtering"
+        },
+        {
+          "label": "الفرز",
+          "to": "api/features/sorting"
+        },
+        {
+          "label": "التجميع",
+          "to": "api/features/grouping"
+        },
+        {
+          "label": "التوسيع",
+          "to": "api/features/expanding"
+        },
+        {
+          "label": "ترقيم الصفحات",
+          "to": "api/features/pagination"
+        },
+        {
+          "label": "تثبيت الصفوف",
+          "to": "api/features/row-pinning"
+        },
+        {
+          "label": "اختيار الصفوف",
+          "to": "api/features/row-selection"
+        }
+      ]
+    },
+    {
+      "label": "المؤسسة",
+      "children": [
+        {
+          "label": "AG Grid",
+          "to": "enterprise/ag-grid"
+        }
+      ]
+    },
+    {
+      "label": "الأمثلة",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "to": "framework/angular/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/angular/examples/grouping",
+              "label": "تجميع الأعمدة"
+            },
+            {
+              "to": "framework/angular/examples/column-ordering",
+              "label": "ترتيب الأعمدة"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning",
+              "label": "تثبيت الأعمدة"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning-sticky",
+              "label": "تثبيت الأعمدة اللاصق"
+            },
+            {
+              "to": "framework/angular/examples/column-visibility",
+              "label": "إظهار/إخفاء الأعمدة"
+            },
+            {
+              "to": "framework/angular/examples/filters",
+              "label": "مرشحات الأعمدة"
+            },
+            {
+              "to": "framework/angular/examples/row-selection",
+              "label": "اختيار الصفوف"
+            },
+            {
+              "to": "framework/angular/examples/expanding",
+              "label": "التوسيع"
+            },
+            {
+              "to": "framework/angular/examples/sub-components",
+              "label": "المكونات الفرعية"
+            },
+            {
+              "to": "framework/angular/examples/signal-input",
+              "label": "إدخال الإشارة"
+            },
+            {
+              "to": "framework/angular/examples/editable",
+              "label": "بيانات قابلة للتعديل"
+            },
+            {
+              "to": "framework/angular/examples/row-dnd",
+              "label": "سحب وإفلات الصفوف"
+            },
+            {
+              "to": "framework/angular/examples/column-resizing-performant",
+              "label": "تغيير حجم الأعمدة بكفاءة"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "to": "framework/lit/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/lit/examples/column-sizing",
+              "label": "تغيير حجم الأعمدة"
+            },
+            {
+              "to": "framework/lit/examples/filters",
+              "label": "المرشحات"
+            },
+            {
+              "to": "framework/lit/examples/row-selection",
+              "label": "اختيار الصفوف"
+            },
+            {
+              "to": "framework/lit/examples/sorting",
+              "label": "الفرز"
+            },
+            {
+              "to": "framework/lit/examples/virtualized-rows",
+              "label": "صفوف مخيلة"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "to": "framework/qwik/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/qwik/examples/filters",
+              "label": "المرشحات"
+            },
+            {
+              "to": "framework/qwik/examples/row-selection",
+              "label": "اختيار الصفوف"
+            },
+            {
+              "to": "framework/qwik/examples/sorting",
+              "label": "الفرز"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "to": "framework/react/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/react/examples/column-groups",
+              "label": "مجموعات الرؤوس"
+            },
+            {
+              "to": "framework/react/examples/filters",
+              "label": "مرشحات الأعمدة"
+            },
+            {
+              "to": "framework/react/examples/filters-faceted",
+              "label": "مرشحات الأعمدة (المقسمة)"
+            },
+            {
+              "to": "framework/react/examples/filters-fuzzy",
+              "label": "مرشحات البحث الضبابي"
+            },
+            {
+              "to": "framework/react/examples/column-ordering",
+              "label": "ترتيب الأعمدة"
+            },
+            {
+              "to": "framework/react/examples/column-dnd",
+              "label": "ترتيب الأعمدة (سحب وإفلات)"
+            },
+            {
+              "to": "framework/react/examples/column-pinning",
+              "label": "تثبيت الأعمدة"
+            },
+            {
+              "to": "framework/react/examples/column-pinning-sticky",
+              "label": "تثبيت الأعمدة اللاصق"
+            },
+            {
+              "to": "framework/react/examples/column-sizing",
+              "label": "تغيير حجم الأعمدة"
+            },
+            {
+              "to": "framework/react/examples/column-resizing-performant",
+              "label": "تغيير حجم الأعمدة بكفاءة"
+            },
+            {
+              "to": "framework/react/examples/column-visibility",
+              "label": "إظهار/إخفاء الأعمدة"
+            },
+            {
+              "to": "framework/react/examples/editable-data",
+              "label": "بيانات قابلة للتعديل"
+            },
+            {
+              "to": "framework/react/examples/expanding",
+              "label": "التوسيع"
+            },
+            {
+              "to": "framework/react/examples/sub-components",
+              "label": "المكونات الفرعية"
+            },
+            {
+              "to": "framework/react/examples/fully-controlled",
+              "label": "تحكم كامل"
+            },
+            {
+              "to": "framework/react/examples/grouping",
+              "label": "التجميع"
+            },
+            {
+              "to": "framework/react/examples/pagination",
+              "label": "ترقيم الصفحات"
+            },
+            {
+              "to": "framework/react/examples/pagination-controlled",
+              "label": "ترقيم الصفحات المتحكم به"
+            },
+            {
+              "to": "framework/react/examples/row-dnd",
+              "label": "سحب وإفلات الصفوف"
+            },
+            {
+              "to": "framework/react/examples/row-pinning",
+              "label": "تثبيت الصفوف"
+            },
+            {
+              "to": "framework/react/examples/row-selection",
+              "label": "اختيار الصفوف"
+            },
+            {
+              "to": "framework/react/examples/sorting",
+              "label": "الفرز"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns",
+              "label": "أعمدة مخيلة"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns-experimental",
+              "label": "أعمدة مخيلة (تجريبي)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows",
+              "label": "صفوف مخيلة"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows-experimental",
+              "label": "صفوف مخيلة (تجريبي)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-infinite-scrolling",
+              "label": "التمرير اللانهائي المخيل"
+            },
+            {
+              "to": "framework/react/examples/kitchen-sink",
+              "label": "كل شيء في واحد"
+            },
+            {
+              "to": "framework/react/examples/bootstrap",
+              "label": "React Bootstrap"
+            },
+            {
+              "to": "framework/react/examples/material-ui-pagination",
+              "label": "ترقيم صفحات Material UI"
+            },
+            {
+              "to": "framework/react/examples/full-width-table",
+              "label": "جدول بعرض كامل React"
+            },
+            {
+              "to": "framework/react/examples/full-width-resizable-table",
+              "label": "جدول قابل لتغيير الحجم بعرض كامل React"
+            },
+            {
+              "to": "framework/react/examples/custom-features",
+              "label": "ميزات مخصصة"
+            },
+            {
+              "to": "framework/react/examples/query-router-search-params",
+              "label": "معلمات بحث الموجه الاستعلامي"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "to": "framework/solid/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/solid/examples/column-groups",
+              "label": "مجموعات الأعمدة"
+            },
+            {
+              "to": "framework/solid/examples/column-ordering",
+              "label": "ترتيب الأعمدة"
+            },
+            {
+              "to": "framework/solid/examples/column-visibility",
+              "label": "إظهار/إخفاء الأعمدة"
+            },
+            {
+              "to": "framework/solid/examples/filters",
+              "label": "المرشحات"
+            },
+            {
+              "to": "framework/solid/examples/sorting",
+              "label": "الفرز"
+            },
+            {
+              "to": "framework/solid/examples/bootstrap",
+              "label": "Solid Bootstrap"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "to": "framework/svelte/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/svelte/examples/column-groups",
+              "label": "مجموعات الأعمدة"
+            },
+            {
+              "to": "framework/svelte/examples/column-ordering",
+              "label": "ترتيب الأعمدة"
+            },
+            {
+              "to": "framework/svelte/examples/column-pinning",
+              "label": "تثبيت الأعمدة"
+            },
+            {
+              "to": "framework/svelte/examples/column-visibility",
+              "label": "إظهار/إخفاء الأعمدة"
+            },
+            {
+              "to": "framework/svelte/examples/filtering",
+              "label": "التصفية"
+            },
+            {
+              "to": "framework/svelte/examples/sorting",
+              "label": "الفرز"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "to": "framework/vue/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/vue/examples/column-ordering",
+              "label": "ترتيب الأعمدة"
+            },
+            {
+              "to": "framework/vue/examples/column-pinning",
+              "label": "تثبيت الأعمدة"
+            },
+            {
+              "to": "framework/vue/examples/pagination",
+              "label": "ترقيم الصفحات"
+            },
+            {
+              "to": "framework/vue/examples/row-selection",
+              "label": "اختيار الصفوف"
+            },
+            {
+              "to": "framework/vue/examples/sorting",
+              "label": "الفرز"
+            },
+            {
+              "to": "framework/vue/examples/sub-components",
+              "label": "المكونات الفرعية"
+            },
+            {
+              "to": "framework/vue/examples/filters",
+              "label": "مرشحات الأعمدة"
+            },
+            {
+              "to": "framework/vue/examples/virtualized-rows",
+              "label": "صفوف مخيلة"
+            },
+            {
+              "to": "framework/vue/examples/grouping",
+              "label": "التجميع"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "to": "framework/vanilla/examples/basic",
+              "label": "أساسي"
+            },
+            {
+              "to": "framework/vanilla/examples/pagination",
+              "label": "ترقيم الصفحات"
+            },
+            {
+              "to": "framework/vanilla/examples/sorting",
+              "label": "الفرز"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
