@@ -1,0 +1,790 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TanStack/tanstack.com/main/tanstack-docs-config.schema.json",
+  "docSearch": {
+    "appId": "74SF5EKVW9",
+    "apiKey": "9fc015a3310be6669ed66c6c459f319f",
+    "indexName": "tanstack-table"
+  },
+  "sections": [
+    {
+      "label": "Начало работы",
+      "children": [
+        {
+          "label": "Введение",
+          "to": "introduction"
+        },
+        {
+          "label": "Обзор",
+          "to": "overview"
+        },
+        {
+          "label": "Установка",
+          "to": "installation"
+        },
+        {
+          "label": "Миграция на V8",
+          "to": "guide/migrating"
+        },
+        {
+          "label": "Часто задаваемые вопросы",
+          "to": "faq"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Адаптер таблицы для Angular",
+              "to": "framework/angular/angular-table"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "Адаптер таблицы для Lit",
+              "to": "framework/lit/lit-table"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "Адаптер таблицы для Qwik",
+              "to": "framework/qwik/qwik-table"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Адаптер таблицы для React",
+              "to": "framework/react/react-table"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Адаптер таблицы для Solid",
+              "to": "framework/solid/solid-table"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Адаптер таблицы для Svelte",
+              "to": "framework/svelte/svelte-table"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Адаптер таблицы для Vue",
+              "to": "framework/vue/vue-table"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "Vanilla JS (без фреймворка)",
+              "to": "vanilla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Основные руководства",
+      "children": [
+        {
+          "label": "Данные",
+          "to": "guide/data"
+        },
+        {
+          "label": "Определения колонок",
+          "to": "guide/column-defs"
+        },
+        {
+          "label": "Экземпляр таблицы",
+          "to": "guide/tables"
+        },
+        {
+          "label": "Модели строк",
+          "to": "guide/row-models"
+        },
+        {
+          "label": "Строки",
+          "to": "guide/rows"
+        },
+        {
+          "label": "Ячейки",
+          "to": "guide/cells"
+        },
+        {
+          "label": "Группы заголовков",
+          "to": "guide/header-groups"
+        },
+        {
+          "label": "Заголовки",
+          "to": "guide/headers"
+        },
+        {
+          "label": "Колонки",
+          "to": "guide/columns"
+        }
+      ],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/angular/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/lit/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/qwik/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/react/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/solid/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/svelte/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/vue/guide/table-state"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "label": "Состояние таблицы",
+              "to": "framework/vanilla/guide/table-state"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Руководства по функциям",
+      "children": [
+        {
+          "label": "Порядок колонок",
+          "to": "guide/column-ordering"
+        },
+        {
+          "label": "Закрепление колонок",
+          "to": "guide/column-pinning"
+        },
+        {
+          "label": "Размер колонок",
+          "to": "guide/column-sizing"
+        },
+        {
+          "label": "Видимость колонок",
+          "to": "guide/column-visibility"
+        },
+        {
+          "label": "Фильтрация колонок",
+          "to": "guide/column-filtering"
+        },
+        {
+          "label": "Глобальная фильтрация",
+          "to": "guide/global-filtering"
+        },
+        {
+          "label": "Нечеткая фильтрация",
+          "to": "guide/fuzzy-filtering"
+        },
+        {
+          "label": "Фасеты колонок",
+          "to": "guide/column-faceting"
+        },
+        {
+          "label": "Глобальные фасеты",
+          "to": "guide/global-faceting"
+        },
+        {
+          "label": "Группировка",
+          "to": "guide/grouping"
+        },
+        {
+          "label": "Раскрытие",
+          "to": "guide/expanding"
+        },
+        {
+          "label": "Пагинация",
+          "to": "guide/pagination"
+        },
+        {
+          "label": "Закрепление строк",
+          "to": "guide/row-pinning"
+        },
+        {
+          "label": "Выбор строк",
+          "to": "guide/row-selection"
+        },
+        {
+          "label": "Сортировка",
+          "to": "guide/sorting"
+        },
+        {
+          "label": "Виртуализация",
+          "to": "guide/virtualization"
+        },
+        {
+          "label": "Пользовательские функции",
+          "to": "guide/custom-features"
+        }
+      ]
+    },
+    {
+      "label": "Основные API",
+      "children": [
+        {
+          "label": "Определение колонки",
+          "to": "api/core/column-def"
+        },
+        {
+          "label": "Таблица",
+          "to": "api/core/table"
+        },
+        {
+          "label": "Колонка",
+          "to": "api/core/column"
+        },
+        {
+          "label": "Группа заголовков",
+          "to": "api/core/header-group"
+        },
+        {
+          "label": "Заголовок",
+          "to": "api/core/header"
+        },
+        {
+          "label": "Строка",
+          "to": "api/core/row"
+        },
+        {
+          "label": "Ячейка",
+          "to": "api/core/cell"
+        }
+      ]
+    },
+    {
+      "label": "API функций",
+      "children": [
+        {
+          "label": "Фильтрация колонок",
+          "to": "api/features/column-filtering"
+        },
+        {
+          "label": "Фасеты колонок",
+          "to": "api/features/column-faceting"
+        },
+        {
+          "label": "Порядок колонок",
+          "to": "api/features/column-ordering"
+        },
+        {
+          "label": "Закрепление колонок",
+          "to": "api/features/column-pinning"
+        },
+        {
+          "label": "Размер колонок",
+          "to": "api/features/column-sizing"
+        },
+        {
+          "label": "Видимость колонок",
+          "to": "api/features/column-visibility"
+        },
+        {
+          "label": "Глобальные фасеты",
+          "to": "api/features/global-faceting"
+        },
+        {
+          "label": "Глобальная фильтрация",
+          "to": "api/features/global-filtering"
+        },
+        {
+          "label": "Сортировка",
+          "to": "api/features/sorting"
+        },
+        {
+          "label": "Группировка",
+          "to": "api/features/grouping"
+        },
+        {
+          "label": "Раскрытие",
+          "to": "api/features/expanding"
+        },
+        {
+          "label": "Пагинация",
+          "to": "api/features/pagination"
+        },
+        {
+          "label": "Закрепление строк",
+          "to": "api/features/row-pinning"
+        },
+        {
+          "label": "Выбор строк",
+          "to": "api/features/row-selection"
+        }
+      ]
+    },
+    {
+      "label": "Enterprise",
+      "children": [
+        {
+          "label": "AG Grid",
+          "to": "enterprise/ag-grid"
+        }
+      ]
+    },
+    {
+      "label": "Примеры",
+      "children": [],
+      "frameworks": [
+        {
+          "label": "angular",
+          "children": [
+            {
+              "to": "framework/angular/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/angular/examples/grouping",
+              "label": "Группировка колонок"
+            },
+            {
+              "to": "framework/angular/examples/column-ordering",
+              "label": "Порядок колонок"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning",
+              "label": "Закрепление колонок"
+            },
+            {
+              "to": "framework/angular/examples/column-pinning-sticky",
+              "label": "Липкое закрепление колонок"
+            },
+            {
+              "to": "framework/angular/examples/column-visibility",
+              "label": "Видимость колонок"
+            },
+            {
+              "to": "framework/angular/examples/filters",
+              "label": "Фильтры колонок"
+            },
+            {
+              "to": "framework/angular/examples/row-selection",
+              "label": "Выбор строк"
+            },
+            {
+              "to": "framework/angular/examples/expanding",
+              "label": "Раскрытие"
+            },
+            {
+              "to": "framework/angular/examples/sub-components",
+              "label": "Дочерние компоненты"
+            },
+            {
+              "to": "framework/angular/examples/signal-input",
+              "label": "Signal Input"
+            },
+            {
+              "to": "framework/angular/examples/editable",
+              "label": "Редактируемые данные"
+            },
+            {
+              "to": "framework/angular/examples/row-dnd",
+              "label": "Перетаскивание строк"
+            },
+            {
+              "to": "framework/angular/examples/column-resizing-performant",
+              "label": "Производительное изменение размера колонок"
+            }
+          ]
+        },
+        {
+          "label": "lit",
+          "children": [
+            {
+              "to": "framework/lit/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/lit/examples/column-sizing",
+              "label": "Размер колонок"
+            },
+            {
+              "to": "framework/lit/examples/filters",
+              "label": "Фильтры"
+            },
+            {
+              "to": "framework/lit/examples/row-selection",
+              "label": "Выбор строк"
+            },
+            {
+              "to": "framework/lit/examples/sorting",
+              "label": "Сортировка"
+            },
+            {
+              "to": "framework/lit/examples/virtualized-rows",
+              "label": "Виртуализация строк"
+            }
+          ]
+        },
+        {
+          "label": "qwik",
+          "children": [
+            {
+              "to": "framework/qwik/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/qwik/examples/filters",
+              "label": "Фильтры"
+            },
+            {
+              "to": "framework/qwik/examples/row-selection",
+              "label": "Выбор строк"
+            },
+            {
+              "to": "framework/qwik/examples/sorting",
+              "label": "Сортировка"
+            }
+          ]
+        },
+        {
+          "label": "react",
+          "children": [
+            {
+              "to": "framework/react/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/react/examples/column-groups",
+              "label": "Группы заголовков"
+            },
+            {
+              "to": "framework/react/examples/filters",
+              "label": "Фильтры колонок"
+            },
+            {
+              "to": "framework/react/examples/filters-faceted",
+              "label": "Фильтры колонок (фасеты)"
+            },
+            {
+              "to": "framework/react/examples/filters-fuzzy",
+              "label": "Нечеткие фильтры"
+            },
+            {
+              "to": "framework/react/examples/column-ordering",
+              "label": "Порядок колонок"
+            },
+            {
+              "to": "framework/react/examples/column-dnd",
+              "label": "Порядок колонок (перетаскивание)"
+            },
+            {
+              "to": "framework/react/examples/column-pinning",
+              "label": "Закрепление колонок"
+            },
+            {
+              "to": "framework/react/examples/column-pinning-sticky",
+              "label": "Липкое закрепление колонок"
+            },
+            {
+              "to": "framework/react/examples/column-sizing",
+              "label": "Размер колонок"
+            },
+            {
+              "to": "framework/react/examples/column-resizing-performant",
+              "label": "Производительное изменение размера колонок"
+            },
+            {
+              "to": "framework/react/examples/column-visibility",
+              "label": "Видимость колонок"
+            },
+            {
+              "to": "framework/react/examples/editable-data",
+              "label": "Редактируемые данные"
+            },
+            {
+              "to": "framework/react/examples/expanding",
+              "label": "Раскрытие"
+            },
+            {
+              "to": "framework/react/examples/sub-components",
+              "label": "Дочерние компоненты"
+            },
+            {
+              "to": "framework/react/examples/fully-controlled",
+              "label": "Полностью контролируемый"
+            },
+            {
+              "to": "framework/react/examples/grouping",
+              "label": "Группировка"
+            },
+            {
+              "to": "framework/react/examples/pagination",
+              "label": "Пагинация"
+            },
+            {
+              "to": "framework/react/examples/pagination-controlled",
+              "label": "Контролируемая пагинация"
+            },
+            {
+              "to": "framework/react/examples/row-dnd",
+              "label": "Перетаскивание строк"
+            },
+            {
+              "to": "framework/react/examples/row-pinning",
+              "label": "Закрепление строк"
+            },
+            {
+              "to": "framework/react/examples/row-selection",
+              "label": "Выбор строк"
+            },
+            {
+              "to": "framework/react/examples/sorting",
+              "label": "Сортировка"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns",
+              "label": "Виртуализация колонок"
+            },
+            {
+              "to": "framework/react/examples/virtualized-columns-experimental",
+              "label": "Виртуализация колонок (экспериментальная)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows",
+              "label": "Виртуализация строк"
+            },
+            {
+              "to": "framework/react/examples/virtualized-rows-experimental",
+              "label": "Виртуализация строк (экспериментальная)"
+            },
+            {
+              "to": "framework/react/examples/virtualized-infinite-scrolling",
+              "label": "Бесконечная прокрутка"
+            },
+            {
+              "to": "framework/react/examples/kitchen-sink",
+              "label": "Кухонная раковина"
+            },
+            {
+              "to": "framework/react/examples/bootstrap",
+              "label": "React Bootstrap"
+            },
+            {
+              "to": "framework/react/examples/material-ui-pagination",
+              "label": "Пагинация Material UI"
+            },
+            {
+              "to": "framework/react/examples/full-width-table",
+              "label": "Таблица на всю ширину"
+            },
+            {
+              "to": "framework/react/examples/full-width-resizable-table",
+              "label": "Таблица на всю ширину с изменяемым размером"
+            },
+            {
+              "to": "framework/react/examples/custom-features",
+              "label": "Пользовательские функции"
+            },
+            {
+              "to": "framework/react/examples/query-router-search-params",
+              "label": "Параметры поиска Query Router"
+            }
+          ]
+        },
+        {
+          "label": "solid",
+          "children": [
+            {
+              "to": "framework/solid/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/solid/examples/column-groups",
+              "label": "Группы колонок"
+            },
+            {
+              "to": "framework/solid/examples/column-ordering",
+              "label": "Порядок колонок"
+            },
+            {
+              "to": "framework/solid/examples/column-visibility",
+              "label": "Видимость колонок"
+            },
+            {
+              "to": "framework/solid/examples/filters",
+              "label": "Фильтры"
+            },
+            {
+              "to": "framework/solid/examples/sorting",
+              "label": "Сортировка"
+            },
+            {
+              "to": "framework/solid/examples/bootstrap",
+              "label": "Solid Bootstrap"
+            }
+          ]
+        },
+        {
+          "label": "svelte",
+          "children": [
+            {
+              "to": "framework/svelte/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/svelte/examples/column-groups",
+              "label": "Группы колонок"
+            },
+            {
+              "to": "framework/svelte/examples/column-ordering",
+              "label": "Порядок колонок"
+            },
+            {
+              "to": "framework/svelte/examples/column-pinning",
+              "label": "Закрепление колонок"
+            },
+            {
+              "to": "framework/svelte/examples/column-visibility",
+              "label": "Видимость колонок"
+            },
+            {
+              "to": "framework/svelte/examples/filtering",
+              "label": "Фильтрация"
+            },
+            {
+              "to": "framework/svelte/examples/sorting",
+              "label": "Сортировка"
+            }
+          ]
+        },
+        {
+          "label": "vue",
+          "children": [
+            {
+              "to": "framework/vue/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/vue/examples/column-ordering",
+              "label": "Порядок колонок"
+            },
+            {
+              "to": "framework/vue/examples/column-pinning",
+              "label": "Закрепление колонок"
+            },
+            {
+              "to": "framework/vue/examples/pagination",
+              "label": "Пагинация"
+            },
+            {
+              "to": "framework/vue/examples/row-selection",
+              "label": "Выбор строк"
+            },
+            {
+              "to": "framework/vue/examples/sorting",
+              "label": "Сортировка"
+            },
+            {
+              "to": "framework/vue/examples/sub-components",
+              "label": "Дочерние компоненты"
+            },
+            {
+              "to": "framework/vue/examples/filters",
+              "label": "Фильтры колонок"
+            },
+            {
+              "to": "framework/vue/examples/virtualized-rows",
+              "label": "Виртуализация строк"
+            },
+            {
+              "to": "framework/vue/examples/grouping",
+              "label": "Группировка"
+            }
+          ]
+        },
+        {
+          "label": "vanilla",
+          "children": [
+            {
+              "to": "framework/vanilla/examples/basic",
+              "label": "Базовый"
+            },
+            {
+              "to": "framework/vanilla/examples/pagination",
+              "label": "Пагинация"
+            },
+            {
+              "to": "framework/vanilla/examples/sorting",
+              "label": "Сортировка"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
